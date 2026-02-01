@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja Walentynka 💖</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            max-width: 400px;
+            width: 90%;
+            position: relative;
+        }
+
+        h1 {
+            color: #ff4d6d;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 15px;
+            margin-top: 15px;
+            display: none;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            margin-top: 15px;
+            border-radius: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            resize: none;
+        }
+
+        input[type="file"] {
+            margin-top: 15px;
+        }
+
+        .buttons {
+            margin-top: 25px;
+            position: relative;
+            height: 120px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+        }
+
+        .yes {
+            background-color: #ff4d6d;
+            color: white;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+        }
+
+        .no {
+            background-color: #ccc;
+        }
+
+        #answer {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #ff4d6d;
+            display: none;
+        }
+    </style>
+</head>
+<body>
